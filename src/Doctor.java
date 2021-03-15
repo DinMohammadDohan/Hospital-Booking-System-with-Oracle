@@ -505,7 +505,7 @@ public class Doctor extends javax.swing.JFrame {
 
         try{
              Class.forName("oracle.jdbc.driver.OracleDriver");
-            con = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:XE","DIN","Hridita81369");
+            con = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:XE","DIN","password");
 
             String sql="select * from DOCTOR where DOCTOR_ID=?";
 
